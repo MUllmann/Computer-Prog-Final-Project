@@ -1,1 +1,28 @@
+body {
+  background-color: #808080;
+}
 
+.container {
+  margin: 0 auto;
+  text-aligne: center
+}
+
+.SimonGame {
+  margin: 0 auto;
+  margin-top: 60px;
+  width: 700px;
+  height: 700px;
+  border: solid 10px white;
+  border-radius: 700px;
+}
+
+.pad {
+ margin: 0;
+  float: left;
+  position: relative;
+  width: 300px;
+  height: 300px:
+    border: solid 5px black;
+  
+}
+    
