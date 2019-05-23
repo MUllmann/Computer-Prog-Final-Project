@@ -146,17 +146,11 @@ p {
   color: #03A9F4;
 }
 
-#footer {
-   position:fixed;
-   left: 0px;
-   bottom: 0px;
-   height: 30px;
-   width: 100%;
-}
-
 h4 {
- width: 1300px;
- border: 10px solid black;
- padding: 40px;
- margin: 65px;
+ width: 1500px;
+ border: 15px solid black;
+ padding: 55px;
+ margin: 0 auto;
 }
+//https://www.w3schools.com/css/css_boxmodel.asp
+//https://medium.freecodecamp.org/how-to-center-things-with-style-in-css-dc87b7542689
