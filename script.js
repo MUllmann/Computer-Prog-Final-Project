@@ -88,6 +88,7 @@ var game = {
     }, 700)
     game.playerSeq = [];
   }
+
   // Add whichever color the player clicked on onto the player's sequence
   function addColorToPlayer(id) {
     var color = "#" + id;
@@ -140,4 +141,3 @@ var game = {
     resetGame();
     $("#count-num").html("--");
   });
-
