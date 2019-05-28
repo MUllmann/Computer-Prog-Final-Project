@@ -1,6 +1,54 @@
 body {
-  font-family: Muli, sans-serif;
-  background-color: #606060;
+  font-family: 'Neucha', cursive;
+  background: #606060;
+  animation: color-me-in 450s; /* other keywords like "infinite alternate" can be useful here */
+}
+
+@keyframes color-me-in {
+
+  0% {
+    background: white;
+  }
+
+  10% {
+    background: tan;
+  }
+
+  20% {
+    background: yellow;
+  }
+
+  30% {
+    background: orange;
+  }
+
+  40% {
+    background: red;
+  }
+
+  50% {
+    background: purple;
+  }
+
+  60% {
+    background: blue;
+  }
+
+  70% {
+    background: green;
+  }
+
+  80% {
+    background: brown;
+  }
+
+  90% {
+    background: grey;
+  }
+
+ 100% {
+    background: #606060;
+  }
 }
 
 #board {
@@ -147,10 +195,12 @@ p {
 }
 
 h4 {
- width: 1500px;
+ width: 1250px;
  border: 15px solid black;
- padding: 55px;
+ padding: 35px;
  margin: 0 auto;
 }
+
 //https://www.w3schools.com/css/css_boxmodel.asp
 //https://medium.freecodecamp.org/how-to-center-things-with-style-in-css-dc87b7542689
+//https://css-tricks.com/using-multi-step-animations-transitions/
