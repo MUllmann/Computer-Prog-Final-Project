@@ -12,6 +12,7 @@ var game = {
   },
   strict: false,
 }
+//https://learn.freecodecamp.org/coding-interview-prep/take-home-projects/build-a-simon-game/
 
 
 // Attach sounds and visual animation to each pad press
@@ -109,7 +110,7 @@ var game = {
         $("#board").fadeOut("slow");
         $("#final-screen").fadeTo("slow",1);
       } else {
-        //insert some kind of warning message thing here saying wrong
+
         setTimeout(function() {
             alert("Wrong move! Try again.");
           }, 500);
@@ -141,3 +142,7 @@ var game = {
     resetGame();
     $("#count-num").html("--");
   });
+
+  //https://developer.mozilla.org/en-US/
+  //https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/
+  //https://www.w3schools.com
