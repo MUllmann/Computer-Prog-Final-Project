@@ -195,13 +195,11 @@ p {
   color: #03A9F4;
 }
 
+//code sourced from: https://medium.freecodecamp.org/how-to-center-things-with-style-in-css-dc87b7542689
+//code sourced from: https://www.w3schools.com/css/css_boxmodel.asp
 h4 {
  width: 1250px;
  border: 15px solid black;
  padding: 35px;
  margin: 0 auto;
 }
-
-//https://www.w3schools.com/css/css_boxmodel.asp
-//https://medium.freecodecamp.org/how-to-center-things-with-style-in-css-dc87b7542689
-//https://css-tricks.com/using-multi-step-animations-transitions/
