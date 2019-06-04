@@ -1,3 +1,4 @@
+//code sourced from: https://learn.freecodecamp.org/coding-interview-prep/take-home-projects/build-a-simon-game/
 // Initialize game variables
 var game = {
   count: 0,
@@ -12,7 +13,6 @@ var game = {
   },
   strict: false,
 }
-//https://learn.freecodecamp.org/coding-interview-prep/take-home-projects/build-a-simon-game/
 
 
 // Attach sounds and visual animation to each pad press
