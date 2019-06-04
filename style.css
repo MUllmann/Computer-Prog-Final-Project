@@ -4,7 +4,7 @@ body {
   animation: color-me-in 450s; /* other keywords like "infinite alternate" can be useful here */
 }
 
-//Code sourced from: https://css-tricks.com/using-multi-step-animations-transitions
+//code sourced from: https://css-tricks.com/using-multi-step-animations-transitions
 @keyframes color-me-in {
 
   0% {
