@@ -32,7 +32,9 @@ var game = {
         break;
     }
   }
-
+//code sourced from: https://www.w3schools.com/jquery/default.asp
+//code sourced from: https://https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_dom_addclass
+//code sourced from: https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_dom_removeclass
   function animation(color) {
     $(color).addClass("animate");
     sound(color);
@@ -41,6 +43,8 @@ var game = {
     }, 500)
   }
 
+//code sourced from: https://www.w3schools.com/jquery/default.asp
+//code sourced from: 
   // Strict Mode
   function checkStrict() {
     if ($("#strict").is(":checked")){
@@ -50,6 +54,8 @@ var game = {
     }
   }
 
+//code sourced from: https://www.w3schools.com/jquery/default.asp
+//code sourced from: https://www.w3schools.com/jquery/jquery_hide_show.asp
   // When player presses "Start," start the game
   $("#start").click(function() {
     checkStrict();
@@ -97,7 +103,8 @@ var game = {
     game.playerSeq.push(color);
     checkPlayerMove(color);
   }
-
+//code sourced from: https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_fadeout
+//code sourced from: https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_fadeto
   // Check if the player move matched the last color
   // If no, either re-play the sequence (normal mode) or end the game (strict mode)
   // If yes, move on
@@ -135,6 +142,8 @@ var game = {
     }
   }
 
+//code sourced from: https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_fadeout
+//code sourced from: https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_fadeto
   $("#new-game").click(function() {
     $("#final-screen").fadeOut("slow");
     $("#board").fadeTo("slow",1);
